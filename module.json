@@ -1,0 +1,16 @@
+{
+    "name": "Spark24",
+    "alias": "spark24",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Spark24\\Providers\\AppServiceProvider",
+        "Modules\\Spark24\\Providers\\EventServiceProvider",
+        "Modules\\Spark24\\Providers\\RouteServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

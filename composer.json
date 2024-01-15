@@ -1,0 +1,31 @@
+{
+    "name": "VENDOR/spark24-module",
+    "type": "phpvms-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "",
+            "email": ""
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Spark24\\Providers\\AppServiceProvider",
+                "Modules\\Spark24\\Providers\\EventServiceProvider",
+                "Modules\\Spark24\\Providers\\RouteServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Spark24\\": "."
+        }
+    }
+}
